@@ -1,0 +1,33 @@
+@media (max-width: 1200px) {
+    .promo {
+        &__menu {
+            padding: 23px 15px 0 15px;
+            flex-wrap: wrap;
+            &:last-child {
+                
+            }
+        }
+    }
+    .price {
+        &__blocks {
+            /* justify-content: center; */
+        }
+    }
+    .comment {
+        .slick-next {
+            left: 58%;
+        }
+        .slick-prev {
+            left: 41%;
+        }
+    }
+    .map {
+        .container {
+            margin: 11% 37%;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    
+}

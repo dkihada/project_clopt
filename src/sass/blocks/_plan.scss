@@ -1,0 +1,28 @@
+.plan {
+    min-height: 454px;
+    background-color: #f3f3f3;
+    &__blocks {
+        margin-top: 33px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &__block {
+        width: 260px;
+        margin: 0px 10px;
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+        width: 52px;
+        height: 52px;
+    }
+    &__subtitle {
+        padding-bottom: 45px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+        color: #3a3a3a;
+        text-align: center;
+    }
+}

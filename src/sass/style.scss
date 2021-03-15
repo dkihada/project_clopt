@@ -1,0 +1,32 @@
+@import 'base/font';
+@import 'base/variables';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+.container {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/button';
+@import 'blocks/titles';
+@import 'blocks/advantages';
+@import 'blocks/offer';
+@import 'blocks/agent';
+@import 'blocks/divider';
+@import 'blocks/price';
+@import 'blocks/manager';
+@import 'blocks/plan';
+@import 'blocks/comment';
+@import 'blocks/form';
+@import 'blocks/question';
+@import 'blocks/map';
+@import 'blocks/footer';
+@import 'base/media';

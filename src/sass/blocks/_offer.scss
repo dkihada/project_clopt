@@ -1,0 +1,29 @@
+.offer {
+    min-height: 620px;
+    padding-bottom: 57px;
+    &__subtitle {
+        width: 880px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 21px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #2e2e2e;
+    }
+    &__block {
+        margin-top: 37px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__descr {
+        width: 360px;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        color: #3a3a3a;
+        text-align: justify;
+        text-align-last: center;
+    }
+}

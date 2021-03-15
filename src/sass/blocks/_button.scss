@@ -1,0 +1,42 @@
+.button {
+    /* margin-top: 20px; */
+    width: 160px;
+    height: 45px;
+    background-color: $main-color;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        color: black;
+        background-color: orange;
+        transform: scale(1.1, 1.1);
+        transition: all 0.3s;
+    }
+    &_max {
+        display: block;
+        margin: 39px auto;
+        width: 230px;
+        height: 57px;
+        font-size: 15px;
+        line-height: 17px;
+        font-weight: 700;
+        &:hover {
+            background-color: lightskyblue;
+        }
+    }
+    &_mini {
+        display: block;
+        margin: 0 auto 26px;
+        background-color: $main-color;
+    }
+    &_form {
+        max-width: 180px;
+        display: block;
+        margin: 16px auto 26px;
+    }
+}

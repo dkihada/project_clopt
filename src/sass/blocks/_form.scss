@@ -1,0 +1,37 @@
+.form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    input {
+        padding: 5px 20px;
+        margin: 0 10px 25px;
+        width: 25%;
+        height: 47px;
+        background-color: #ffffff;
+        border: 1px solid rgba(0,0,0,0.2);
+        border-radius: 25px;
+        font-size: 13px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #101010;
+    }
+    &_form {
+        display: flex;
+        padding-top: 17px;
+        input {
+            margin: 6px 5px;
+            width: 230px;
+            height: 33px;
+        }
+    }
+    &_message {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 19px 26px 42px;
+        border: 1px solid rgba(0,0,0,0.2);
+        border-radius: 10px;
+        width: 87%;
+    }
+    
+}

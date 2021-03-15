@@ -1,0 +1,113 @@
+.promo {
+    position: relative;
+    min-height: 720px;
+    background: url(../img/bg_top.jpg) center center/cover no-repeat;
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 23px 0 0 0;
+        
+    }
+    &__logo {
+        width: 96px;
+        height: 100px;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0px;
+    }
+    &__links {
+        font-size: 15px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        list-style-type: none;
+        margin-top: 20px;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+            color: $main-color;
+        }
+    }
+    &__item {
+        border-right: 2px dotted white;
+        padding: 0 15px 0 15px;
+        text-decoration: none;
+        &_last {
+            border-right: none;
+        }
+    }
+/*     &__consultation {
+        padding-top: 15px;
+    } */
+    &__text {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: right;
+    }
+    &__tel {
+        font-size: 19px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    &__title {
+        text-align: center;
+    }
+    &__header {
+        margin: 0;
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__subtitle {
+        font-family: 'Roboto Condensed', sans-serif;
+        margin: 26px 0 0 0;
+        font-size: 72px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $main-color;
+    }
+    &__descr {
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-top: 9px;
+        font-size: 42px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__divider {
+        width: 800px;
+        height: 0;
+        background-color: #ffffff;
+        margin-top: 38px;
+        margin-left: 165px;
+    }
+}
+
+.create {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    &__item {
+        margin-top: 27px;
+    }
+    &__descr {
+        margin-top: 19px;
+        max-width: 250px;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+    }
+}

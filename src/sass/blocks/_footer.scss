@@ -1,0 +1,63 @@
+.footer {
+    min-height: 201px;
+    background-color: #25333c;
+    &__block {
+        padding: 24px 10px 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        width: 68px;
+        height: 71px;
+        background: url(../icons/logo_lion.png) center center/cover no-repeat;
+    }
+    &__divider {
+        max-width: 1145px;
+        height: 1px;
+        opacity: 0.3;
+        background-color: #fff;
+    }
+    &__text {
+        padding-right: 20%;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    &__descr {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: end;
+    }
+    &__tel {
+        font-size: 19px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    &__copy {
+        opacity: 0.6;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__policity {
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        text-decoration: underline;
+        color: #ec644b;
+    }
+    &__site {
+        opacity: 0.6;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+}

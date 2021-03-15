@@ -1,0 +1,26 @@
+.manager {
+    padding: 58px 0 0;
+    min-height: 342px;
+    background: url(../img/bg_3.jpg) center center/cover no-repeat;
+    &__block {
+        display: block;
+        margin: 0 auto 20px;
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+    }
+    &__img {
+        padding-top: 23px;
+        padding-left: 25px;
+    }
+    &__subtitle {
+        margin: 26px auto 0;
+        width: 926px;
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+    }
+}

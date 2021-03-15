@@ -1,0 +1,32 @@
+.question {
+    padding: 62px 0 0 0;
+    min-height: 410px;
+    background: url(../img/bg_4.jpg) center center/cover no-repeat;
+    &__blocks {
+        margin: 0 auto;
+        max-width: 896px;
+        border: 1px solid rgba(0,0,0,0.7);
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    &__top {
+        background-color: #25333c;
+    }
+    &__title {
+        padding-top: 20px;
+        font-size: 19px;
+        line-height: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__subtitle {
+        padding-bottom: 19px;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+    }
+}
